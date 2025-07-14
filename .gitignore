@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+_env/
+*/venv/
+*/env/
+
+# Editor/IDE specific files
+.idea/
+.vscode/
+*.swp
+*~
+.#*
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Uploaded Media/Static (if not versioned)
+media/
+static_collected/
+
+# Configuration files (sensitive or local-only)
+.env
+.flaskenv
+*.ini
+config.py
+local_settings.py
+
+# Package managers
+Pipfile.lock
+
+# Distribution / Build
+dist/
+build/
+*.egg
+*.whl
+
+# Coverage
+.coverage
+.coverage.*
+
+# Pytest
+.pytest_cache/
